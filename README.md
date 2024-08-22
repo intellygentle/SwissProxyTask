@@ -18,6 +18,9 @@ code .env
 ```
 note: you should see a blank space above your terminal write this there "PRIVATE_KEY=xyz..." where "xyz..." is your burner wallet private key dont use "" too
 
+<img width="581" alt="privK" src="https://github.com/user-attachments/assets/34d1582e-098e-4bc6-90a1-037b093e3473">
+
+
 
 
 ## run scripts with
