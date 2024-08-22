@@ -3,13 +3,19 @@
 
 
 ## pre-requisites
-
+```
 git clone https://github.com/intellygentle/SwissProxyTask.git
 cd SwissProxyTask
+```
+
+```
 npm install dotenv
+```
+```
 touch .env
 echo ".env" >> .gitignore
 code .env
+```
 note: you should see a blank space above your terminal write this there "PRIVATE_KEY=xyz..." where "xyz..." is your burner wallet private key dont use "" too
 
 
