@@ -43,6 +43,7 @@ in upgrade.js put the address in line 17 inside the ""
 npx hardhat run scripts/upgrade.js --network swisstronik
 ```
 copy your hash and use swisstronik explorer to get the transaction hash link
+https://explorer-evm.testnet.swisstronik.com/
 
 
 # push to github
