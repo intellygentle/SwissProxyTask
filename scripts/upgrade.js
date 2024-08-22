@@ -14,10 +14,10 @@ const sendShieldedTransaction = async (signer, destination, data, value) => {
 
 async function main() {
   // Replace with the address of your deployed proxy contract
-  const proxyAddress = "0x4ab5bed731068bCC38cA2f53d6C6E97FF2c230eA"; 
+  const proxyAddress = "0x70B113Fa02B3E86d5be0a5995D4708EE8c93f323"; 
 
   // Replace with the address of your new implementation contract
-  const newImplementationAddress = "0x0880ac57F88ce7e63B6Cdf3ca80575dE5A0cf21D"; 
+  const newImplementationAddress = "0x3AA1CC3B3CB81f8bB5d5c28A2445eA288638f3b3"; 
   
   const [signer] = await hre.ethers.getSigners();
   const contractFactory = await hre.ethers.getContractFactory("SwisstronikProxy");

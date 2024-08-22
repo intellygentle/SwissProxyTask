@@ -11,4 +11,21 @@ module.exports = {
       accounts: [`0x` + `${process.env.PRIVATE_KEY}`],
     },
   },
+
+  etherscan: {
+    apiKey: `ANY_STRING_WILL_DO`,
+    customChains: [
+      {
+        network: "swisstronik",
+        chainId: 1291,
+        urls: {
+          apiURL: "https://explorer-evm.testnet.swisstronik.com/api",
+          browserURL: "https://explorer-evm.testnet.swisstronik.com",
+        },
+      },
+    ],
+  },
+
+
+  
 };

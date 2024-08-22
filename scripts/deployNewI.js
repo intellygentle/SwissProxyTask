@@ -8,6 +8,16 @@ async function main() {
   await SwissV2.deployed();
 
   console.log(`SwisstronikV2 was deployed to ${SwissV2.address}`);
+
+
+  await hre.run("verify:verify", {
+    address: SwissV2.address, // address of deployed contract
+    constructorArguments: ["Hello Swisstronik!!"], // constructor arguments
+  });
+
+
+
+
 }
 
 // We recommend this pattern to be able to use async/await everywhere

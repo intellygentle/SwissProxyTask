@@ -10,6 +10,14 @@ async function main() {
   await contract.deployed();
 
   console.log(`Swisstronik contract deployed to ${contract.address}`);
+
+
+  await hre.run("verify:verify", {
+    address: contract.address, // address of deployed contract
+    constructorArguments: ["Hello Swisstronik!!"], // constructor arguments
+  });
+
+
 }
 
 //DEFAULT BY HARDHAT:
